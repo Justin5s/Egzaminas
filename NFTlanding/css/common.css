@@ -1,0 +1,45 @@
+/* .tiles {
+  box-sizing: border-box;
+}
+
+p,
+li,
+a {
+  font-size: 16px;
+  line-height: 1.5;
+} */
+
+body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  color: rgb(88, 88, 88);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  max-width: 425px;
+  height: 3300px;
+  margin: 0 auto;
+  /* padding: 1.6em 1.6em; */
+  overflow: hidden;
+}
+
+.pdl {
+  padding-left: 32px;
+}
+
+.pdt {
+  padding-top: 32px;
+}
+
+.pdb {
+  padding-bottom: 32px;
+}
+.pdr {
+  padding-right: 32px;
+}

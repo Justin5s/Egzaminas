@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "reset.css";
+@import "common.css";
+@import "footer.css";
+
+/* MENU  */
+.header-container {
+  margin-top: 0.5em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-list {
+  display: none;
+}
+/* .menu-hamburger {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* HERO  */
+
+.hero-block {
+  width: 70%;
+  z-index: 1;
+  margin-top: 4em;
+}
+
+.hero-button {
+  padding-bottom: 70px;
+}
+
+.hb_launching {
+  color: #ff3998;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1.5em;
+}
+.hero-block h1 {
+  color: #111111;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1.3;
+  padding-bottom: 0.5em;
+}
+
+.hb_paragraph {
+  color: #555555;
+  padding-bottom: 1.5em;
+}
+
+.button-cta {
+  width: 188px;
+  height: 75px;
+  background-color: transparent;
+  border: none;
+}
+
+/* hero {
+  position: relative;
+  overflow-x: hidden;
+} */
+
+.hero-block {
+  position: relative;
+}
+
+.pinknft {
+  width: 25rem;
+  position: absolute;
+  bottom: 115px;
+  left: 210px;
+}
+/* Main  */
+.dp-none {
+  display: none;
+}
+.companies-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.cl_size {
+  width: 43%;
+  height: 60px;
+}
+
+.muc_text-h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+  line-height: 48.41px;
+  padding-bottom: 30px;
+}
+
+.muc_text-p {
+  font-weight: 400;
+  color: #111111;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+
+.main-upsell-content {
+  background-image: url(/NFTlanding/assets/background.svg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+/* Showcase  */
+.showcase-h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+  line-height: 48.41px;
+  padding-bottom: 30px;
+}
+
+.showcase-p {
+  font-weight: 400;
+  color: #555555;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.series {
+  color: #ff8139;
+  font-size: 12px;
+  font-weight: 500;
+}
+.name {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.number {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+}
+.bid {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 500;
+}
+.price {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.days {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: #eeeeee;
+  width: 290px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.text-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block-right {
+  text-align: right;
+}
+
+.text-block p {
+  padding-top: 5px;
+}
+
+.showcase {
+  position: relative;
+}
+.showcase.cards {
+  display: flex;
+  position: absolute;
+  gap: 40px;
+  overflow: hidden;
+}
+
+/* Footer-upsell  */
+
+.footer-upsell-block {
+  width: 60%;
+  z-index: 1;
+  margin-top: 4em;
+}
+
+.footer-upsell-button {
+  padding-bottom: 1.5em;
+}
+
+.fub_launching {
+  color: #ff3998;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1.5em;
+}
+.footer-upsell-block h1 {
+  color: #111111;
+  font-size: 2.9rem;
+  font-weight: 900;
+  line-height: 1.3;
+  padding-bottom: 0.5em;
+}
+
+.fub_paragraph {
+  color: #555555;
+  padding-bottom: 1.5em;
+  width: 200px;
+}
+
+.fub_paragraph span {
+  display: none;
+}
+
+.fu_button-cta {
+  width: 188px;
+  height: 75px;
+  background-color: transparent;
+  border: none;
+}
+
+.footer-upsell {
+  margin-top: 500px;
+  padding-bottom: 41px;
+  border-bottom: 2px solid rgb(219, 219, 219);
+  border-top: 2px solid rgb(219, 219, 219);
+}
+
+.footer-upsell-block {
+  position: relative;
+}
+
+.upsell-footer-img {
+  width: 206px;
+  position: absolute;
+  bottom: -50px;
+  left: 250px;
+}
+
+/* .muc_img {
+  position: absolute;
+  z-index: 1;
+} */
+
+/* NEVEIKIA HOVERIS ant nuotraukos  */
+/* .button-cta:hover {
+  background: #blue;
+} */
+
+/* .hero {
+  margin: 42px 0px 32px 0px;
+  padding: 0px 32px 0px 32px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hero_first_item { 
+  width: 70%;
+  z-index: 1;
+}
+
+.hero img {
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  left: 100%;
+  transform: translateX(-50%);
+} */
+
+/* BUTTON pradzia */
+/* .button {
+  cursor: pointer;
+  border: none;
+  width: 188px;
+  height: 75px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  background: white;
+  margin: 3px;
+}
+
+.button::after {
+  position: absolute;
+  content: "";
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  z-index: -1;
+  background: url("../assets/background.svg");
+  background-size: cover;
+  border-radius: 30px;
+} */
+/* BUTTON pabaiga  */
+
+/* Desktop  */
+@media screen and (min-width: 1440px) {
+  .container {
+    background-color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3.6em 3.6em;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-list a {
+    padding: 0 20px;
+  }
+
+  nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    height: 60px;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  .menu ul li {
+    /* display: inline; */
+    margin: 0 20px;
+    color: #fff;
+  }
+
+  .pinknft {
+    width: 40rem;
+    position: absolute;
+    bottom: -50px;
+    left: 600px;
+  }
+
+  .upsell-footer-img {
+    width: 206px;
+    position: absolute;
+    bottom: -50px;
+    left: 800px;
+  }
+
+  .ca__card {
+    flex: 1 0 30%;
+  }
+  .hero-block {
+    width: 40%;
+    z-index: 1;
+    margin-top: 10em;
+  }
+
+  .hero-block h1 {
+    color: black;
+    font-size: 5rem;
+    font: 700;
+    line-height: 1.3;
+    min-width: 50px;
+    padding-bottom: 0.5em;
+  }
+
+  .main-upsell-content {
+    border-radius: 16px;
+    margin-left: 32px;
+    margin-right: 10px;
+  }
+
+  .companies-logos {
+    margin-top: 50px;
+  }
+
+  .dp-none {
+    display: block;
+  }
+  .cl_size {
+    width: 250px;
+    height: 40px;
+    margin-left: -15px;
+  }
+
+  .companies-logos {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-upsell {
+    padding-top: 60px;
+  }
+
+  /* .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .main-footer {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .fc__left {
+    flex: 1;
+  }
+  .fc__right {
+    flex: 1;
+  }
+}
